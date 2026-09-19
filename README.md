@@ -12,25 +12,7 @@ For the Radioconda-based GNU Radio installation and SDR driver setup, refer to:
 
 **[📄 Radioconda Installation Guide](./radioconda-installation-guide.pdf)**
 
-The setup guide covers:
 
-- Radioconda installation on Windows
-- GNU Radio setup
-- UHD installation
-- USRP device configuration
-- Zadig / WinUSB driver installation
-- RTL-SDR Blog V4 configuration
-- USRP device verification
-- RTL-SDR verification
-
-### Hardware
-
-- Ettus USRP
-- RTL-SDR
-- Antenna
-- Computer running GNU Radio
-
----
 
 # 📡 Experiments
 
