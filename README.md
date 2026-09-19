@@ -40,8 +40,10 @@ This experiment uses an **RTL-SDR as a real-time RF spectrum analyzer and FM rec
 
 ---
 
-## 5. RTL-SDR Radio Capture — `Radiocapture.grc`
+## 5. USRP FM Receiver — `USRPRX.grc`
 
-This experiment extends the RTL-SDR-based FM receiver by providing a configurable **radio signal capture and monitoring flowgraph**. RF samples from the RTL-SDR are routed through a selector and throttle stage before being analyzed using time-domain, frequency-domain, waterfall, and constellation displays. The signal can also be passed through an FM demodulator and sent to an audio sink, allowing an FM broadcast signal to be both visualized and listened to. The flowgraph provides adjustable center frequency, bandwidth, RF gain, and audio volume controls for interactive SDR experimentation.
+This experiment implements an **FM receiver using an Ettus USRP**. A UHD USRP Source captures complex RF samples at a configurable center frequency, which can be adjusted from **435 MHz to 915 MHz**. The received signal is simultaneously sent to a frequency-domain display for spectrum observation and to a Wideband FM receiver for demodulation. The recovered FM audio is then sent to the system audio output, while another frequency-domain display allows the demodulated signal to be examined. The flowgraph uses a **480 kS/s sample rate** and a configured USRP receive gain of **40 dB**, providing a simple practical example of receiving and demodulating FM signals with a USRP.
+
+---
 
 ---
