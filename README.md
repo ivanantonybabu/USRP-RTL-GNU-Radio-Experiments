@@ -8,7 +8,7 @@ This repository contains a collection of **GNU Radio Companion (GRC)** experimen
 
 These experiments were developed using **GNU Radio** with SDR hardware such as **USRP** and **RTL-SDR**.
 
-For the Radioconda-based GNU Radio installation and SDR driver setup, refer to:
+For the Radioconda-based GNU Radio installation and SDR driver setup, refer to the below guide:
 
 **[📄 Radioconda Installation Guide](./radioconda-installation-guide.pdf)**
 
